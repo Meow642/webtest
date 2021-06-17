@@ -41,7 +41,7 @@ export default function App() {
   return (
     <div>
       <p>
-        {format(addDays(new Date(), 1), 'EEEE d-MMM')} there will be{' '}
+        {format(addDays(new Date(), 1), 'EEEE d-MMM')} 将会有{' '}
         <strong>{results.length}</strong> flying pigs
       </p>
       <hr></hr>
